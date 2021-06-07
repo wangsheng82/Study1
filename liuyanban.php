@@ -3,7 +3,7 @@ include('db.php');
 
 // var_dump($_SESSION);
 
-//获取数据总数
+//获取数据总数11111111111112222
 $sql = "select count(*) as t from msg";
 $total = $db->read($sql)[0]['t'];
 
